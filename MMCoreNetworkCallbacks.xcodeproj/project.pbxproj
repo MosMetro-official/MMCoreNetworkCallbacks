@@ -7,7 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D895B6092820629A0020D36B /* MMCoreNetworkCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B6082820629A0020D36B /* MMCoreNetworkCallbacks.swift */; };
+		D895B630282063200020D36B /* Ext+URLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B610282063200020D36B /* Ext+URLSession.swift */; };
+		D895B631282063200020D36B /* Ext+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B611282063200020D36B /* Ext+Dictionary.swift */; };
+		D895B632282063200020D36B /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B613282063200020D36B /* APIError.swift */; };
+		D895B633282063200020D36B /* HTTPContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B614282063200020D36B /* HTTPContentType.swift */; };
+		D895B634282063200020D36B /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B615282063200020D36B /* APIClient.swift */; };
+		D895B635282063200020D36B /* APIClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B616282063200020D36B /* APIClientDelegate.swift */; };
+		D895B636282063200020D36B /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B617282063200020D36B /* HTTPMethod.swift */; };
+		D895B637282063200020D36B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B618282063200020D36B /* Response.swift */; };
+		D895B638282063200020D36B /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B619282063200020D36B /* Request.swift */; };
+		D895B639282063200020D36B /* HTTPProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B61A282063200020D36B /* HTTPProtocol.swift */; };
+		D895B63A282063200020D36B /* SwiftyJSONSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B61C282063200020D36B /* SwiftyJSONSubscript.swift */; };
+		D895B63B282063200020D36B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B61D282063200020D36B /* SwiftyJSON.swift */; };
+		D895B63C282063200020D36B /* SwiftyJSONError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B61E282063200020D36B /* SwiftyJSONError.swift */; };
+		D895B63D282063200020D36B /* SwiftyJSONIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B61F282063200020D36B /* SwiftyJSONIndex.swift */; };
+		D895B63E282063200020D36B /* SwiftyJSONLiteralConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B620282063200020D36B /* SwiftyJSONLiteralConvertible.swift */; };
+		D895B63F282063200020D36B /* SwiftyJSON_Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B622282063200020D36B /* SwiftyJSON_Url.swift */; };
+		D895B640282063200020D36B /* SwiftyJSON_String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B623282063200020D36B /* SwiftyJSON_String.swift */; };
+		D895B641282063200020D36B /* SwiftyJSON_Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B624282063200020D36B /* SwiftyJSON_Raw.swift */; };
+		D895B642282063200020D36B /* SwiftyJSON_Null.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B625282063200020D36B /* SwiftyJSON_Null.swift */; };
+		D895B643282063200020D36B /* SwiftyJSON_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B626282063200020D36B /* SwiftyJSON_Array.swift */; };
+		D895B644282063200020D36B /* SwiftyJSON__Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B627282063200020D36B /* SwiftyJSON__Type.swift */; };
+		D895B645282063200020D36B /* SwiftyJSON_Int_Doube.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B628282063200020D36B /* SwiftyJSON_Int_Doube.swift */; };
+		D895B646282063200020D36B /* SwiftyJSON_Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B629282063200020D36B /* SwiftyJSON_Bool.swift */; };
+		D895B647282063200020D36B /* SwiftyJSON_Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B62A282063200020D36B /* SwiftyJSON_Number.swift */; };
+		D895B648282063200020D36B /* SwiftyJSON_Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B62C282063200020D36B /* SwiftyJSON_Dictionary.swift */; };
+		D895B649282063200020D36B /* SwiftyJSON_Printable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B62D282063200020D36B /* SwiftyJSON_Printable.swift */; };
+		D895B64A282063200020D36B /* SwiftyJSON_Collection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B62E282063200020D36B /* SwiftyJSON_Collection.swift */; };
+		D895B64B282063200020D36B /* SwiftyJSON_Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D895B62F282063200020D36B /* SwiftyJSON_Comparable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +51,34 @@
 
 /* Begin PBXFileReference section */
 		D895B6052820629A0020D36B /* libMMCoreNetworkCallbacks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMMCoreNetworkCallbacks.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		D895B6082820629A0020D36B /* MMCoreNetworkCallbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMCoreNetworkCallbacks.swift; sourceTree = "<group>"; };
+		D895B610282063200020D36B /* Ext+URLSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+URLSession.swift"; sourceTree = "<group>"; };
+		D895B611282063200020D36B /* Ext+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Ext+Dictionary.swift"; sourceTree = "<group>"; };
+		D895B613282063200020D36B /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D895B614282063200020D36B /* HTTPContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPContentType.swift; sourceTree = "<group>"; };
+		D895B615282063200020D36B /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		D895B616282063200020D36B /* APIClientDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClientDelegate.swift; sourceTree = "<group>"; };
+		D895B617282063200020D36B /* HTTPMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		D895B618282063200020D36B /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		D895B619282063200020D36B /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D895B61A282063200020D36B /* HTTPProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPProtocol.swift; sourceTree = "<group>"; };
+		D895B61C282063200020D36B /* SwiftyJSONSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONSubscript.swift; sourceTree = "<group>"; };
+		D895B61D282063200020D36B /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D895B61E282063200020D36B /* SwiftyJSONError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONError.swift; sourceTree = "<group>"; };
+		D895B61F282063200020D36B /* SwiftyJSONIndex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONIndex.swift; sourceTree = "<group>"; };
+		D895B620282063200020D36B /* SwiftyJSONLiteralConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSONLiteralConvertible.swift; sourceTree = "<group>"; };
+		D895B622282063200020D36B /* SwiftyJSON_Url.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Url.swift; sourceTree = "<group>"; };
+		D895B623282063200020D36B /* SwiftyJSON_String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_String.swift; sourceTree = "<group>"; };
+		D895B624282063200020D36B /* SwiftyJSON_Raw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Raw.swift; sourceTree = "<group>"; };
+		D895B625282063200020D36B /* SwiftyJSON_Null.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Null.swift; sourceTree = "<group>"; };
+		D895B626282063200020D36B /* SwiftyJSON_Array.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Array.swift; sourceTree = "<group>"; };
+		D895B627282063200020D36B /* SwiftyJSON__Type.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON__Type.swift; sourceTree = "<group>"; };
+		D895B628282063200020D36B /* SwiftyJSON_Int_Doube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Int_Doube.swift; sourceTree = "<group>"; };
+		D895B629282063200020D36B /* SwiftyJSON_Bool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Bool.swift; sourceTree = "<group>"; };
+		D895B62A282063200020D36B /* SwiftyJSON_Number.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Number.swift; sourceTree = "<group>"; };
+		D895B62C282063200020D36B /* SwiftyJSON_Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Dictionary.swift; sourceTree = "<group>"; };
+		D895B62D282063200020D36B /* SwiftyJSON_Printable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Printable.swift; sourceTree = "<group>"; };
+		D895B62E282063200020D36B /* SwiftyJSON_Collection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Collection.swift; sourceTree = "<group>"; };
+		D895B62F282063200020D36B /* SwiftyJSON_Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON_Comparable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +111,76 @@
 		D895B6072820629A0020D36B /* MMCoreNetworkCallbacks */ = {
 			isa = PBXGroup;
 			children = (
-				D895B6082820629A0020D36B /* MMCoreNetworkCallbacks.swift */,
+				D895B612282063200020D36B /* CoreNetwork */,
+				D895B60F282063200020D36B /* Extensions */,
+				D895B61B282063200020D36B /* SwiftyJSON */,
 			);
 			path = MMCoreNetworkCallbacks;
+			sourceTree = "<group>";
+		};
+		D895B60F282063200020D36B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D895B610282063200020D36B /* Ext+URLSession.swift */,
+				D895B611282063200020D36B /* Ext+Dictionary.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D895B612282063200020D36B /* CoreNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				D895B613282063200020D36B /* APIError.swift */,
+				D895B614282063200020D36B /* HTTPContentType.swift */,
+				D895B615282063200020D36B /* APIClient.swift */,
+				D895B616282063200020D36B /* APIClientDelegate.swift */,
+				D895B617282063200020D36B /* HTTPMethod.swift */,
+				D895B618282063200020D36B /* Response.swift */,
+				D895B619282063200020D36B /* Request.swift */,
+				D895B61A282063200020D36B /* HTTPProtocol.swift */,
+			);
+			path = CoreNetwork;
+			sourceTree = "<group>";
+		};
+		D895B61B282063200020D36B /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D895B61C282063200020D36B /* SwiftyJSONSubscript.swift */,
+				D895B61D282063200020D36B /* SwiftyJSON.swift */,
+				D895B61E282063200020D36B /* SwiftyJSONError.swift */,
+				D895B61F282063200020D36B /* SwiftyJSONIndex.swift */,
+				D895B620282063200020D36B /* SwiftyJSONLiteralConvertible.swift */,
+				D895B621282063200020D36B /* Values */,
+				D895B62B282063200020D36B /* Extensions */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		D895B621282063200020D36B /* Values */ = {
+			isa = PBXGroup;
+			children = (
+				D895B622282063200020D36B /* SwiftyJSON_Url.swift */,
+				D895B623282063200020D36B /* SwiftyJSON_String.swift */,
+				D895B624282063200020D36B /* SwiftyJSON_Raw.swift */,
+				D895B625282063200020D36B /* SwiftyJSON_Null.swift */,
+				D895B626282063200020D36B /* SwiftyJSON_Array.swift */,
+				D895B627282063200020D36B /* SwiftyJSON__Type.swift */,
+				D895B628282063200020D36B /* SwiftyJSON_Int_Doube.swift */,
+				D895B629282063200020D36B /* SwiftyJSON_Bool.swift */,
+				D895B62A282063200020D36B /* SwiftyJSON_Number.swift */,
+			);
+			path = Values;
+			sourceTree = "<group>";
+		};
+		D895B62B282063200020D36B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D895B62C282063200020D36B /* SwiftyJSON_Dictionary.swift */,
+				D895B62D282063200020D36B /* SwiftyJSON_Printable.swift */,
+				D895B62E282063200020D36B /* SwiftyJSON_Collection.swift */,
+				D895B62F282063200020D36B /* SwiftyJSON_Comparable.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +241,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D895B6092820629A0020D36B /* MMCoreNetworkCallbacks.swift in Sources */,
+				D895B645282063200020D36B /* SwiftyJSON_Int_Doube.swift in Sources */,
+				D895B631282063200020D36B /* Ext+Dictionary.swift in Sources */,
+				D895B643282063200020D36B /* SwiftyJSON_Array.swift in Sources */,
+				D895B646282063200020D36B /* SwiftyJSON_Bool.swift in Sources */,
+				D895B632282063200020D36B /* APIError.swift in Sources */,
+				D895B64A282063200020D36B /* SwiftyJSON_Collection.swift in Sources */,
+				D895B644282063200020D36B /* SwiftyJSON__Type.swift in Sources */,
+				D895B641282063200020D36B /* SwiftyJSON_Raw.swift in Sources */,
+				D895B648282063200020D36B /* SwiftyJSON_Dictionary.swift in Sources */,
+				D895B63F282063200020D36B /* SwiftyJSON_Url.swift in Sources */,
+				D895B630282063200020D36B /* Ext+URLSession.swift in Sources */,
+				D895B63E282063200020D36B /* SwiftyJSONLiteralConvertible.swift in Sources */,
+				D895B63D282063200020D36B /* SwiftyJSONIndex.swift in Sources */,
+				D895B63A282063200020D36B /* SwiftyJSONSubscript.swift in Sources */,
+				D895B640282063200020D36B /* SwiftyJSON_String.swift in Sources */,
+				D895B642282063200020D36B /* SwiftyJSON_Null.swift in Sources */,
+				D895B649282063200020D36B /* SwiftyJSON_Printable.swift in Sources */,
+				D895B637282063200020D36B /* Response.swift in Sources */,
+				D895B64B282063200020D36B /* SwiftyJSON_Comparable.swift in Sources */,
+				D895B647282063200020D36B /* SwiftyJSON_Number.swift in Sources */,
+				D895B636282063200020D36B /* HTTPMethod.swift in Sources */,
+				D895B635282063200020D36B /* APIClientDelegate.swift in Sources */,
+				D895B63C282063200020D36B /* SwiftyJSONError.swift in Sources */,
+				D895B639282063200020D36B /* HTTPProtocol.swift in Sources */,
+				D895B638282063200020D36B /* Request.swift in Sources */,
+				D895B633282063200020D36B /* HTTPContentType.swift in Sources */,
+				D895B63B282063200020D36B /* SwiftyJSON.swift in Sources */,
+				D895B634282063200020D36B /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
