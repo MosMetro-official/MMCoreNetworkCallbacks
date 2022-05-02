@@ -18,6 +18,7 @@ Pod::Spec.new do |spec|
   spec.name         = "MMCoreNetworkCallbacks"
   spec.version      = "0.0.1"
   spec.summary      = "Network layer used by metro team"
+  spec.swift_version = '5.0'
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,7 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = { :type => "MIT" }
+  spec.license      = 'MIT'
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
