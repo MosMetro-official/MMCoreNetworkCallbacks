@@ -16,7 +16,7 @@ public enum RetryPolicy {
 public protocol APIClientInterceptor {
     func client(_ client: APIClient, willSendRequest request: inout URLRequest)
     
-    func client(_ client: APIClient, initialRequest: Request, didReceiveInvalidResponse response: HTTPURLResponse, data: Data?, completion: @escaping (RetryPolicy) -> Void)
+    func client(_ client: APIClient, initialRequest: Request, didReceiveInvalidResponse response: HTTPURLResponse, data: Data?) async -> RetryPolicy
 }
 
 
@@ -24,8 +24,8 @@ public protocol APIClientInterceptor {
 public final class DefaultAPIClientInterceptor : APIClientInterceptor {
     public func client(_ client: APIClient, willSendRequest request: inout URLRequest) { }
     
-    public func client(_ client: APIClient, initialRequest: Request, didReceiveInvalidResponse response: HTTPURLResponse, data: Data?, completion: @escaping (RetryPolicy) -> Void) {
-        completion(.doNotRetry)
+    public func client(_ client: APIClient, initialRequest: Request, didReceiveInvalidResponse response: HTTPURLResponse, data: Data?) async -> RetryPolicy {
+        return .doNotRetry
     }
     
     

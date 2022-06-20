@@ -8,7 +8,7 @@
 import Foundation
 
 public struct Response {
-    public let data : Any
+    public let data : Data
     public let success : Bool
     public let statusCode : Int
 }
